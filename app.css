@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+
+
+
+
+body{
+    background-image: linear-gradient(90deg, rgba(0, 0, 0,0.95) 15%, rgba(0, 0, 0, 0.15) 60%), url("./europe-4k-mountain-lake-summer-mountains.jpg");
+    background-size: cover;
+    font-family: Montserrat;
+     
+}
+
+
+
+nav{
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+ul{
+    display: flex;
+    flex-direction: row;
+    color: rgb(255, 255, 255);
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(0, 0, 0, 0.40) 33%);
+    height: 40px;
+    width: 50%;
+    align-items: center;
+
+   
+    justify-content: space-evenly;
+    
+    
+}
+
+li{
+    margin: 0 10px;
+}
+
+h3{
+    margin: 0 100px;
+    color: white;
+
+}
+
+#wild{
+    margin-left: 100px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+width: 45%;    
+}
+
+#buttons{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between
+    
+
+}
+
+.mainbut{
+    height: 40px ;
+    width: 220px;
+    font-family: Montserrat;
+
+}
+
+p{
+margin: 50px 0;   
+padding: 0 25px;
+font-family: Raleway;
+   letter-spacing: 1px;
+   border-left: solid 2px ;
+   line-height: 25px;
+   
+}
+
+h2{
+    font-size: 3em;
+    
+}
+
+h1{
+    font-size: 7em;
+   
+}
+
+h1,h2{
+    font-family: Montserrat;
+    font-weight: 800;
+}
+
+#ex1{
+    background-color: white;
+    font-weight: 300;
+    color: black;
+    transition: all 0.3s ;
+
+}
+
+#ex2{
+    border: solid 2px white;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    transition: all 0.3s ;
+}
+
+
+#ex2:hover{
+
+background-color: white;
+color: black;
+transform: translateY(-10px) scale(1.1);
+
+
+}
+#ex1:hover{
+
+background-color: rgba(255, 255, 255, 0);
+color: white;
+border: solid 2px white;
+transform: translateY(-10px) scale(1.1);
+
+}
+
+#prova{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
